@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APOD Project - Ivan Coelho</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="imagem" id="imagem" ></div>
+    <iframe class="vdo" id="vdo"></iframe>
+  </div>
+  <main>
+    <h1>APOD Project</h1>
+    <div class="dayBox">
+      <p>You're on the day:</p>
+      <div id="diaAtual"></div>
+    </div>
+    <h2 id="apodTitle"></h2>
+    <p id="apodEx"></p>    
+    <h3>Change date:</h3>
+    <div class="changeBox">
+      <input type="date" id="inptDate">
+      <button id="bttn" class="btn">GO</button>
+    </div>
+    <p class="atri">This site was made with academic purposes by <a href="https://github.com/ivancda">Ivan Coelho</a></p>
+  </main>
+</body>
+</html>

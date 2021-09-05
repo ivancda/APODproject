@@ -9,7 +9,7 @@
 body{
   display: flex;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 26px;
+  font-size: 18px;
   color: white;
 }
 
@@ -48,7 +48,7 @@ main{
 #inptDate{
   height: 2rem;
   width: auto;
-  font-size: 2rem;
+  font-size: 1rem;
   user-select: none;
 }
 
